@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:paddingLeft="@dimen/hidp_15"
+    android:paddingTop="@dimen/hidp_12"
+    android:paddingRight="@dimen/hidp_10"
+    android:paddingBottom="@dimen/hidp_10"
+    android:text="地区"
+    android:textColor="#666"
+    android:textSize="@dimen/hisp_13" />

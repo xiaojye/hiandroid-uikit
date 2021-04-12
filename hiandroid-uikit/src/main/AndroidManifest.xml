@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jye.hiandroid.uikit">
+
+    <application>
+
+        <!--图片预览界面-->
+        <activity
+            android:name=".preview.ui.ImagePreviewActivity"
+            android:theme="@style/HIUIPreview" />
+
+    </application>
+
+</manifest>

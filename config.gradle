@@ -1,0 +1,22 @@
+ext {
+
+    versionCode = 1
+    versionName = "1.0"
+
+    android = [
+            compileSdkVersion: 29,
+            buildToolsVersion: "30.0.3",
+            minSdkVersion    : 19,
+            targetSdkVersion : 29,
+    ]
+
+    dependencies = [
+            "hiandroid-core": "com.github.xiaojye:hiandroid-core:1.0",
+
+            //PhotoView
+            "photoView"                  : "com.github.chrisbanes.photoview:library:1.2.4",
+
+            //XTabLayout(增强版 tabLayout)
+            "xTabLayout"                 : 'com.androidkun:XTabLayout:1.1.4',
+    ]
+}

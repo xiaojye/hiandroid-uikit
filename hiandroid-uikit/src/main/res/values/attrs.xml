@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 指定边框颜色 -->
+    <attr name="hiui_borderColor" format="color" />
+    <!-- 指定边框线宽度 -->
+    <attr name="hiui_borderWidth" format="dimension" />
+    <!-- 边框是否覆盖内容 -->
+    <attr name="hiui_borderOverlay" format="boolean" />
+
+    <!-- 同时指定四个方向的圆角大小 -->
+    <attr name="hiui_cornerRadius" format="dimension" />
+    <!-- 指定左上方圆角的大小 -->
+    <attr name="hiui_cornerRadiusTopLeft" format="dimension" />
+    <!-- 指定右上方圆角的大小 -->
+    <attr name="hiui_cornerRadiusTopRight" format="dimension" />
+    <!-- 指定左下方圆角的大小 -->
+    <attr name="hiui_cornerRadiusBottomLeft" format="dimension" />
+    <!-- 指定右下方圆角的大小 -->
+    <attr name="hiui_cornerRadiusBottomRight" format="dimension" />
+
+    <!--************** HIUICircleImageView(圆形图片) ****************-->
+    <declare-styleable name="HIUICircleImageView">
+        <attr name="hiui_borderColor" />
+        <attr name="hiui_borderWidth" />
+        <attr name="hiui_borderOverlay" />
+        <!--图片的底色,默认透明-->
+        <attr name="hiui_civ_fill_color" format="color" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 是否将圆角设置为圆形 -->
+    <attr name="hiui_round_isCircle" format="boolean" />
+
+    <declare-styleable name="HIRound">
+        <attr name="hiui_borderColor" />
+        <attr name="hiui_borderWidth" />
+        <attr name="hiui_cornerRadius" />
+        <attr name="hiui_cornerRadiusTopLeft" />
+        <attr name="hiui_cornerRadiusTopRight" />
+        <attr name="hiui_cornerRadiusBottomLeft" />
+        <attr name="hiui_cornerRadiusBottomRight" />
+        <attr name="hiui_round_isCircle" />
+    </declare-styleable>
+
+    <declare-styleable name="HIUIRoundFrameLayout">
+        <attr name="hiui_borderColor" />
+        <attr name="hiui_borderWidth" />
+        <attr name="hiui_cornerRadius" />
+        <attr name="hiui_cornerRadiusTopLeft" />
+        <attr name="hiui_cornerRadiusTopRight" />
+        <attr name="hiui_cornerRadiusBottomLeft" />
+        <attr name="hiui_cornerRadiusBottomRight" />
+        <attr name="hiui_round_isCircle" />
+    </declare-styleable>
+
+    <declare-styleable name="HIUIRoundLinearLayout">
+        <attr name="hiui_borderColor" />
+        <attr name="hiui_borderWidth" />
+        <attr name="hiui_cornerRadius" />
+        <attr name="hiui_cornerRadiusTopLeft" />
+        <attr name="hiui_cornerRadiusTopRight" />
+        <attr name="hiui_cornerRadiusBottomLeft" />
+        <attr name="hiui_cornerRadiusBottomRight" />
+        <attr name="hiui_round_isCircle" />
+    </declare-styleable>
+
+    <declare-styleable name="HIUIRoundRelativeLayout">
+        <attr name="hiui_borderColor" />
+        <attr name="hiui_borderWidth" />
+        <attr name="hiui_cornerRadius" />
+        <attr name="hiui_cornerRadiusTopLeft" />
+        <attr name="hiui_cornerRadiusTopRight" />
+        <attr name="hiui_cornerRadiusBottomLeft" />
+        <attr name="hiui_cornerRadiusBottomRight" />
+        <attr name="hiui_round_isCircle" />
+    </declare-styleable>
+
+    <declare-styleable name="HIUIRoundView">
+        <attr name="hiui_borderColor" />
+        <attr name="hiui_borderWidth" />
+        <attr name="hiui_cornerRadius" />
+        <attr name="hiui_cornerRadiusTopLeft" />
+        <attr name="hiui_cornerRadiusTopRight" />
+        <attr name="hiui_cornerRadiusBottomLeft" />
+        <attr name="hiui_cornerRadiusBottomRight" />
+        <attr name="hiui_round_isCircle" />
+    </declare-styleable>
+
+    <declare-styleable name="HIUIRoundImageView">
+        <attr name="hiui_borderColor" />
+        <attr name="hiui_borderWidth" />
+        <attr name="hiui_cornerRadius" />
+        <attr name="hiui_cornerRadiusTopLeft" />
+        <attr name="hiui_cornerRadiusTopRight" />
+        <attr name="hiui_cornerRadiusBottomLeft" />
+        <attr name="hiui_cornerRadiusBottomRight" />
+        <attr name="hiui_round_isCircle" />
+    </declare-styleable>
+
+    <declare-styleable name="HIUIRoundTextView">
+        <attr name="hiui_borderColor" />
+        <attr name="hiui_borderWidth" />
+        <attr name="hiui_cornerRadius" />
+        <attr name="hiui_cornerRadiusTopLeft" />
+        <attr name="hiui_cornerRadiusTopRight" />
+        <attr name="hiui_cornerRadiusBottomLeft" />
+        <attr name="hiui_cornerRadiusBottomRight" />
+        <attr name="hiui_round_isCircle" />
+    </declare-styleable>
+
+</resources>

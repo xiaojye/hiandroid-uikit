@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.androidkun.xtablayout.XTabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:xTabIndicatorColor="@color/colorPrimary"
+        app:xTabIndicatorHeight="@dimen/hidp_2"
+        app:xTabIndicatorWidth="@dimen/hidp_25"
+        app:xTabMode="scrollable"
+        app:xTabPaddingBottom="-10dp"
+        app:xTabSelectedTextColor="#333333"
+        app:xTabSelectedTextSize="@dimen/hisp_12"
+        app:xTabTextColor="#666666"
+        app:xTabTextSize="@dimen/hisp_13" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/hidp_10"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:paddingBottom="@dimen/hidp_15"
+            android:visibility="gone" />
+
+        <com.jye.hiandroid.uikit.widget.roundview.HIUIRoundTextView
+            android:id="@+id/reloadBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="@dimen/hidp_10"
+            android:paddingTop="@dimen/hidp_6"
+            android:paddingEnd="@dimen/hidp_10"
+            android:paddingBottom="@dimen/hidp_6"
+            android:text="重新加载"
+            android:textColor="#666"
+            android:textSize="@dimen/hisp_12"
+            app:hiui_borderColor="#999"
+            app:hiui_borderWidth="@dimen/hidp_1"
+            app:hiui_cornerRadius="@dimen/hidp_5" />
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+</LinearLayout>
